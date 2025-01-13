@@ -38,8 +38,45 @@ python todo.py
 
 ## Contributing
 
+We welcome contributions to improve the Todo application! Here's how you can contribute:
+
+### Setting Up Development Environment
+
 1. Fork the repository
-2. Create your branch: `git checkout -b feature/your-feature`
-3. Make your changes
-4. Push and submit a pull request
+2. Clone your fork:
+```git clone https://github.com/YOUR_USERNAME/TD1.git```
+3. Create a new branch:
+```git checkout -b feature/your-feature-name```
+
+### Making Changes
+
+1. Make your changes in the code
+2. Test your changes thoroughly
+3. Update documentation if needed
+4. Follow the existing code style and conventions
+
+### Submitting Changes
+
+1. Commit your changes:
+```git add .```
+```git commit -m "Description of your changes"```
+2. Push to your fork:
+```git push origin feature/your-feature-name```
+3. Create a Pull Request:
+- Go to the original repository
+- Click "New Pull Request"
+- Select your branch
+- Describe your changes in detail
+
+### Pull Request Guidelines
+
+- Keep changes focused and atomic
+- Include tests if adding new features
+- Update documentation as needed
+- Follow the existing code style
+- Explain the purpose and details of your changes
+
+## License
+
+This project is licensed under the MIT License.
 
