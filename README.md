@@ -1,25 +1,45 @@
 # Todo-list
 
-A simple command-line todo list application written in Python.
+A simple command-line todo list application to manage your daily tasks.
 
-## Features
+## Description
 
-- Add tasks
-- Display task list
+A Python application that allows you to:
+- Add new tasks
+- Display tasks
 - Mark tasks as completed
 - Delete tasks
-- Intuitive command-line interface
 
-## How to Use
+## How to Run
 
-1. Make sure you have Python installed on your system
-2. Run the `todo.py` file:
-   ```
-   python todo.py
-   ```
+### Prerequisites
+- Python 3.6+
+- Git
 
-## Usage
+### Installation & Usage
 
-- Choose an option by entering the corresponding number (1-5)
-- Follow the on-screen instructions to manage your tasks
-- Completed tasks are marked with a ✓
+1. Clone and enter the repository:
+```bash
+git clone https://github.com/yourusername/Todo-list.git
+cd Todo-list
+```
+
+2. Run the application:
+```bash
+python todo.py
+```
+
+3. Use the menu options:
+- 1: Add a task
+- 2: Display tasks
+- 3: Mark task as completed
+- 4: Delete task
+- 5: Exit
+
+## Contributing
+
+1. Fork the repository
+2. Create your branch: `git checkout -b feature/your-feature`
+3. Make your changes
+4. Push and submit a pull request
+
