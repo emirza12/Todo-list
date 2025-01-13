@@ -8,12 +8,14 @@ class TodoList:
             print("1: High")
             print("2: Medium")
             print("3: Low")
-            priority_choice = input("Enter priority (1-3): ")
+            print("4: Really Low")
+            priority_choice = input("Enter priority (1-4): ")
             
             priority_map = {
                 "1": "High",
                 "2": "Medium",
-                "3": "Low"
+                "3": "Low",
+                "4": "Really Low"
             }
             
             if priority_choice in priority_map:
@@ -37,9 +39,10 @@ class TodoList:
         for i, task in enumerate(self.tasks, 1):
             status = "✓" if task["completed"] else " "
             priority_colors = {
-                "High": "\033[91m",    # Red
-                "Medium": "\033[93m",  # Yellow
-                "Low": "\033[92m"      # Green
+                "High": "\033[91m",      # Red
+                "Medium": "\033[93m",    # Yellow
+                "Low": "\033[92m",       # Green
+                "Really Low": "\033[94m"  # Blue
             }
             reset_color = "\033[0m"
             priority = task["priority"]
