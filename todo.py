@@ -17,7 +17,7 @@ class TodoList:
             print(f"{i}. [{status}] {task['task']}")
 
     def mark_completed(self, number):
-        if 10 <= number <= len(self.tasks):
+        if 1 <= number <= len(self.tasks):
             self.tasks[number-1]["completed"] = True
             print(f"Task '{self.tasks[number-1]['task']}' marked as completed")
         else:
